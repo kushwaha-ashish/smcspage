@@ -1,0 +1,301 @@
+@media only screen and (max-width: 768px) {
+  .main-image {
+    background-image: url('images/img01-landing_sm.jpg');
+    background-position: center;
+    height: 90vh;
+  }
+
+  #logo {
+    padding-left: 0px;
+  }
+
+  .captionIn {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  }
+
+  #mission_pic {
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic11_mission_sm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #vision_pic {
+    //flex-direction: column-reverse;
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic12_vision_sm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #goals_pic {
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic13_goals_sm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .picCaptionL, .picCaptionR {
+    padding-top: 0;
+  }
+
+  .carousel-item > img {
+    min-height: 60vh;
+    object-fit: cover;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 769px) {
+  .main-image {
+    background-image: url('images/img01-landing.jpg');
+    background-position: center;
+    height: 90vh;
+  }
+
+  #logo {
+    padding-left: 50px;
+  }
+
+/*
+  #logoDiv {
+    background-image: url('images/mainLogo.png');
+    background-position: center;
+    background-size: contain;
+  }
+*/
+  .captionIn {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  }
+
+  #mission_pic {
+    background-image:
+    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+    url('images/pic11_mission.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #vision_pic {
+    background-image: 
+    linear-gradient(to left, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic12_vision.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #goals_pic {
+    background-image: 
+    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic13_goals.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; 
+  }
+
+  .picCaptionR {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10%;
+  }
+
+  .picCaptionL {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10%;
+  }
+}
+
+
+
+/*
+.offcanvas-header{ display:none; }
+
+@media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: white;
+    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  }
+
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+    z-index: 10;
+  }
+}*/
+
+.jumboLight {
+  background-color: white;
+}
+
+#logo {
+  height: 70px;
+  //padding-left: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.ehsStrip {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.main-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 0;
+  margin: 0;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.quote {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contactIcons {
+  color: black;
+}
+
+.contactIcons:hover {
+  color: dark-blue;
+  text-decoration: underline dotted;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+/*#scheduleDiv {
+  background-image: url(images/schedule.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#mealsDiv {
+  background-image: url(images/meals.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}*/
+
+#hoursPic {
+  background-image: url(images/hours.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hoursDiv {
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+}
+
+#aboutM {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/aboutMont.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#montEnv {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/montEnv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#individualTask {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/individualTask.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+#curriculum {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/montCurric.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+
+#outdoorPic {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/outdoors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#practicalDetail {
+  background-image: url(images/curric01_practical.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;   
+}
+
+#sensorialDetail {
+  background-image: url(images/curric02_sensorial.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;   
+}
+
+#languageDetail {
+  background-image: url(images/curric03_language.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#mathDetail {
+  background-image: url(images/curric04_math.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#artDetail {
+  background-image: url(images/curric05_art.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#scienceDetail {
+  background-image: url(images/curric06_science.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#graceDetail {
+  background-image: url(images/curric07_grace.jpg);
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
