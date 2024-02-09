@@ -75,19 +75,11 @@
   display: inline-block;
   }
 
-  #mission_pic {
-    background-image:
-    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
-    url('images/pic11_mission.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
   #vision_pic {
-    background-image: 
-    linear-gradient(to left, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
-    url('images/pic12_vision.jpg');
-    background-size: contain;
+    background-image:
+    /*linear-gradient(to left, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),*/
+    url('images/img02_values.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
