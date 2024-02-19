@@ -1,4 +1,12 @@
-p, a {
+p, a, h1, h2, h3, h4, h5 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.table td {
+  padding-right: 3rem;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
