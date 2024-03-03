@@ -4,3 +4,5 @@ f12_history.html
 f13_catholicfaith.html
 f21_applications.html
 f22_tuition.html
+f23_financial.html
+f24_new_ref.html
