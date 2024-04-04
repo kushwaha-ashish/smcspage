@@ -46,10 +46,19 @@ p, a, h1, h2, h3, h4, h5 {
     background-repeat: no-repeat;
   }
 
+  #history_pic {
+    //flex-direction: column-reverse;
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/img03_history.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   #faith_pic {
     background-image: 
     linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
-    url('img03_faith.jpg');
+    url('images/img04_faith.jpg');
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -90,21 +99,33 @@ p, a, h1, h2, h3, h4, h5 {
   display: inline-block;
   }
 
-  #vision_pic {
+  #values_pic {
     background-image:
     /*linear-gradient(to left, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),*/
     url('images/img02_values.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+  #history_pic {
+    //flex-direction: column-reverse;
+    background-image: 
+    /*linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),*/
+    url('images/img03_history.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   #faith_pic {
     background-image: 
-    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
-    url('images/img03_faith.jpg');
+    /*linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),*/
+    url('images/img04_faith.jpg');
     background-size: contain;
     background-repeat: no-repeat; 
   }
+
+
 
   .picCaptionR {
     padding-top: 10vh;
